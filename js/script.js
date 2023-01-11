@@ -1,1 +1,5 @@
-console.log('Hi!');
+const obj = {
+    a: 10
+};
+
+console.log(obj.a);
