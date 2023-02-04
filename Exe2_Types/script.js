@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 let storeName = 'store';
 

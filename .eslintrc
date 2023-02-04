@@ -1,0 +1,25 @@
+{
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": [],
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-console": "warn",
+        "no-var": "error",
+        "quotes": ["error", "single"],
+        "jsx-quotes": ["error", "prefer-double"],
+        "prefer-const": "warn",
+        "indent": ["warn", 4],
+        "max-len": ["warn", {"code": 120}],
+        "semi": ["warn", "always"],
+        "eqeqeq": "warn"
+    } 
+
+
+}

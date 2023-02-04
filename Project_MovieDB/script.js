@@ -37,7 +37,7 @@ false - выводит в консоль главный объект прогр�
 genres
 P.S. Функции вызывать не обязательно */
 
-"use strict";
+'use strict';
 
 let numberOfFilms;
 
@@ -81,13 +81,13 @@ rememberMyFilms();
 
 function detectPersonalLevel() {
     if (personalMovieDB.count < 10) {
-        console.log("Просмотрено довольно мало фильмов");
+        console.log('Просмотрено довольно мало фильмов');
     } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-        console.log("Вы классический зритель");
+        console.log('Вы классический зритель');
     } else if (personalMovieDB.count >= 30) {
-        console.log("Вы киноман");
+        console.log('Вы киноман');
     } else {
-        console.log("Произошла ошибка");
+        console.log('Произошла ошибка');
     }
 }
 

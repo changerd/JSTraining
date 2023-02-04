@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 function fib(count) {
     if(typeof count !== 'number' || !Number.isInteger(count) || count < 1) {
@@ -14,7 +14,7 @@ function fib(count) {
     for (let i = 0; i < count; i++) {
         result += value  + ' ';
         prePast = past;
-        past = value
+        past = value;
         value = prePast + past;
     }
 

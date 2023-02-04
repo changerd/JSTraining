@@ -1,11 +1,11 @@
-"use strict";
+'use strict';
 
 function calculateVolumeAndArea(value) {
     if(isNaN(value) || !Number.isInteger(value) || value < 1) {
         return 'При вычислении произошла ошибка';
     }
 
-    const area = 6 * Math.pow(value, 2)
+    const area = 6 * Math.pow(value, 2);
     const volume = Math.pow(value, 3);
 
     return `Объем куба: ${volume}, площадь всей поверхности: ${area}`;

@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 function firstTask() {
     for (let i = 5; i <= 10; i++) {
@@ -39,7 +39,7 @@ function fourthTask() {
 }
 
 function fifthTask() {
-    let arr = [];
+    const arr = [];
     let elem = 5;
 
     for (let i = 0; i <= 5; i++) {

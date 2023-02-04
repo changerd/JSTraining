@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const lines = 6;
 let result = '';

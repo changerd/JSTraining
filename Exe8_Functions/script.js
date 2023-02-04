@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 
 function declension(forms, val) {
     const cases = [ 2, 0, 1, 1, 1, 2 ];
@@ -13,7 +13,8 @@ function getTimeFromMinutes(minutes) {
     const hours = Math.floor(minutes / 60);
     const restMinutes = minutes - 60 * hours;
     
-    return `Это ${hours} ${declension([ 'час', 'часа', 'часов' ], hours)} и ${restMinutes} ${declension([ 'минута', 'минуты', 'минут' ], restMinutes)}`
+    return `Это ${hours} ${declension([ 'час', 'часа', 'часов' ], hours)} 
+    и ${restMinutes} ${declension([ 'минута', 'минуты', 'минут' ], restMinutes)}`;
 }
 
 console.log( getTimeFromMinutes(150) );

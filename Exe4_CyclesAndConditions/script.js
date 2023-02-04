@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 function firstTask() {
     const arr = [5, 6, 7, 8, 9, 10];
@@ -27,7 +27,7 @@ function secondTask() {
 }
 
 function thirdTask() {
-    const data = ['Homework', 20, 'Shopping', 10, 5]
+    const data = ['Homework', 20, 'Shopping', 10, 5];
     const result = [];
 
     for (let i = data.length - 1; i >= 0; i--) {
